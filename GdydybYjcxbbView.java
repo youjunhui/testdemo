@@ -1,4 +1,4 @@
-package com.ztkj.his.zygl.zycharge.views;
+﻿package com.ztkj.his.zygl.zycharge.views;
 
 import java.math.BigDecimal;
 import java.text.ParseException;
@@ -35,6 +35,7 @@ import com.ztkj.system.frame.util.ViewUitl;
 import de.kupzog.ktable.KTable;
 
 public class GdydybYjcxbbView extends GdydybYjcxbbUI{
+	public String str = "";
 	public static final String ID="com.ztkj.his.zygl.zycharge.uis.GdydybYjcxbbUI";
 	private SimpleDateFormat sf=new SimpleDateFormat("yyyy-MM");
 	private List<YdybyjVO> yjList;
